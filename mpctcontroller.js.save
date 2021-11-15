@@ -1,0 +1,46 @@
+var fs = require("fs");
+
+
+
+var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
+var LED = new Gpio(4, 'out'); //use GPIO pin 4, and specify that it is output
+
+var mqttBrokerAddress="mqtt://192.168.1.200";
+var mqtt = require('mqtt');
+var mqttClient  = mqtt.connect(mqttBrokerAddress);
+ 
+
+var devices=[]; //Will be populated with contents from devices.json
+
+readDevicesJson();
+function readDevicesJson(){
+	try {
+		devices=fs.readFileSync("devices.json");
+		console.log("Read devices.json succesfully");
+		console.log("devices resolves to:");
+		console.log(devicesy
+);
+	} catch (err) {
+		console.log(err);
+		
+	}
+}
+
+mqttClient.on('connect', function () {
+  mqttClient.subscribe('mpct/devices/commands/#');
+})
+ 
+mqttClient.on('message', function (topic, message) {
+  var messageString=message.toString();
+  if (messageString=="1"){
+	LED.writeSync(1);
+	console.log("-Turn on");
+  } else {
+	LED.writeSync(0);
+	console.log("-Turn off");
+  }
+  //console.log("topic: "+topic);
+  //console.log(message.toString())
+  //console.log(message);
+})
+

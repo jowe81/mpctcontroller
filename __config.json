@@ -1,0 +1,28 @@
+{
+	"controller":{
+		"mpctClientType":"controllerClient",
+		"mqttNamespace":"mpct/",
+		"mqttBrokerAddress":"mqtt://localhost",
+		"controllerId":"A",
+		"controllerIP":"192.168.1.70",
+		"reportingInterval":300000,
+		"publishFullStatusInterval":0
+	},
+	"devices":	
+	[
+		{	"physical":{"type":"projector","ip":"192.168.1.131","port":10000},		
+			"meta":{"group":"projectors","name":"Left"},		
+            "config":{
+            	"reportingInterval":10000,
+            	"reportInactiveIntervals":true,
+            	"password":"panasonic",
+            	"httpOn":"http://admin1:panasonic@192.168.1.200/~johannes/c.php?CTL=fon&KEY=1568246401588",
+            	"httpOff":"http://admin1:panasonic@192.168.7.191/base_conf.htm?CTL=foff&KEY=1568246401588",
+            	"method":1,
+            	"pjlinkParams":["mute","errors","lamps","input","name","model","powerState"],
+            	"availablePjlinkParams":["mute","errors","lamps","inputs","input","name","manufacturer","model","powerState"]            	            	            	
+            }
+		}
+
+	]
+}

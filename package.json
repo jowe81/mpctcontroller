@@ -1,0 +1,15 @@
+{
+	"author": "Johannes Weber",
+	"name": "mpctcontroller",
+	"version": "0.1.0",
+	"description": "Device Controller for PowerControl via MQTT",
+	"dependencies": {
+		"diskusage": "latest",
+		"ds18b20": "latest",
+		"lodash": "latest",
+		"mqtt": "latest",
+		"onoff": "latest",
+		"pjlink": "latest",
+		"request": "latest"
+	}
+}
