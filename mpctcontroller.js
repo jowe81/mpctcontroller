@@ -33,6 +33,7 @@ var Mpct_ds18b20=require('./devlib/class_mpct_ds18b20.js');
 var Mpct_dht22=require('./devlib/class_mpct_dht22.js');
 var Mpct_relay=require('./devlib/class_mpct_relay.js');
 var Mpct_projector=require('./devlib/class_mpct_projector.js');
+var Mpct_sim_switch=require('./devlib/class_mpct_sim_switch.js');
 
 //Controller module
 var Mpct_controller=require('./devlib/class_mpct_controller.js');
@@ -68,6 +69,8 @@ function initDevices(){
 			deviceHandlers[n]=new Mpct_flowSensor(devices[n],log,publishDeviceStatus);
 		} else if (devices[n].physical.type=="projector"){
 			deviceHandlers[n]=new Mpct_projector(devices[n],log,publishDeviceStatus);
+		} else if (devices[n].physical.type=="sim_switch"){
+			deviceHandlers[n]=new Mpct_sim_switch(devices[n],log,publishDeviceStatus);
 		}
 		if (!deviceHandlers[n]){
 			log("Device registration failed for "+devices[n].physical.uid+". Unknown device type (\""+devices[n].physical.type+"\"). Please check config.json. Exiting...","init");

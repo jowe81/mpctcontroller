@@ -10,7 +10,13 @@
 	},
 	"devices":	
 	[
-        
+    {	
+			"physical":{"type":"sim_switch","gpio":3},			
+			"meta":{"group":"switcher","name":"tally"},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
 		{	"physical":{"type":"projector","ip":"192.168.7.241","port":4352},		
 			"meta":{"group":"projectors","name":"Right"},		
             		"config":{
