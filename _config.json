@@ -1,0 +1,67 @@
+{
+	"controller":{
+		"mpctClientType":"controllerClient",
+		"mqttNamespace":"mpct/",
+		"mqttBrokerAddress":"mqtt://localhost",
+		"controllerId":"A",
+		"controllerIP":"192.168.7.198",
+		"reportingInterval":300000,
+		"publishFullStatusInterval":0
+	},
+	"devices":	
+	[
+    {	
+			"physical":{"type":"sim_switch","gpio":3},			
+			"meta":{"group":"switcher","name":"tally"},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+		{	"physical":{"type":"projector","ip":"192.168.7.241","port":4352},		
+			"meta":{"group":"projectors","name":"Right"},		
+            		"config":{
+				"reportingInterval":10000,
+				"reportInactiveIntervals":true,
+				"password":"panasonic",
+				"pjlinkParams":["powerState","errors","lamps","input","mute"]
+			}
+		},
+		{	"physical":{"type":"projector","ip":"192.168.7.242","port":4352},		
+			"meta":{"group":"projectors","name":"Center"},		
+            		"config":{
+				"reportingInterval":10000,
+				"reportInactiveIntervals":true,
+				"password":"panasonic",
+				"pjlinkParams":["powerState","errors","lamps","input","mute"]
+			}
+		},
+		{	"physical":{"type":"projector","ip":"192.168.7.240","port":4352},		
+			"meta":{"group":"projectors","name":"Left"},		
+            		"config":{
+				"reportingInterval":10000,
+				"reportInactiveIntervals":true,
+				"password":"panasonic",
+				"pjlinkParams":["powerState","errors","lamps","input","mute"]
+			}
+		},
+		{	"physical":{"type":"projector","ip":"192.168.7.243","port":4352},
+			"meta":{"group":"UEH","name":"projector"},
+			"config":{
+				"reportingInterval":10000,
+				"reportInactiveIntervals":true,
+				"password":"panasonic",
+				"pjlinkParams":["powerState","errors","lamps","input","mute"]
+			}
+		},
+		{	"physical":{"type":"projector","ip":"192.168.7.191","port":4352},
+			"meta":{"group":"Gym","name":"projector"},
+			"config":{
+				"reportingInterval":10000,
+				"reportInactiveIntervals":true,
+				"password":"panasonic",
+				"pjlinkParams":["powerState","errors","lamps","input","mute"]
+			}
+		}
+
+	]
+}

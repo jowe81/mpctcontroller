@@ -3,65 +3,156 @@
 		"mpctClientType":"controllerClient",
 		"mqttNamespace":"mpct/",
 		"mqttBrokerAddress":"mqtt://localhost",
-		"controllerId":"A",
-		"controllerIP":"192.168.7.198",
+		"controllerId":"Tally",
+		"controllerIP":"192.168.7.195",
 		"reportingInterval":300000,
 		"publishFullStatusInterval":0
 	},
 	"devices":	
 	[
     {	
-			"physical":{"type":"sim_switch","gpio":3},			
-			"meta":{"group":"switcher","name":"tally"},
+			"physical":{"type":"switch","gpio":21},			
+			"meta":{"group":"tally","name":"cam 1", "switcher_gpio_pin":1},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
-		{	"physical":{"type":"projector","ip":"192.168.7.241","port":4352},		
-			"meta":{"group":"projectors","name":"Right"},		
-            		"config":{
-				"reportingInterval":10000,
-				"reportInactiveIntervals":true,
-				"password":"panasonic",
-				"pjlinkParams":["powerState","errors","lamps","input","mute"]
-			}
-		},
-		{	"physical":{"type":"projector","ip":"192.168.7.242","port":4352},		
-			"meta":{"group":"projectors","name":"Center"},		
-            		"config":{
-				"reportingInterval":10000,
-				"reportInactiveIntervals":true,
-				"password":"panasonic",
-				"pjlinkParams":["powerState","errors","lamps","input","mute"]
-			}
-		},
-		{	"physical":{"type":"projector","ip":"192.168.7.240","port":4352},		
-			"meta":{"group":"projectors","name":"Left"},		
-            		"config":{
-				"reportingInterval":10000,
-				"reportInactiveIntervals":true,
-				"password":"panasonic",
-				"pjlinkParams":["powerState","errors","lamps","input","mute"]
-			}
-		},
-		{	"physical":{"type":"projector","ip":"192.168.7.243","port":4352},
-			"meta":{"group":"UEH","name":"projector"},
-			"config":{
-				"reportingInterval":10000,
-				"reportInactiveIntervals":true,
-				"password":"panasonic",
-				"pjlinkParams":["powerState","errors","lamps","input","mute"]
-			}
-		},
-		{	"physical":{"type":"projector","ip":"192.168.7.191","port":4352},
-			"meta":{"group":"Gym","name":"projector"},
-			"config":{
-				"reportingInterval":10000,
-				"reportInactiveIntervals":true,
-				"password":"panasonic",
-				"pjlinkParams":["powerState","errors","lamps","input","mute"]
-			}
-		}
+    {	
+			"physical":{"type":"switch","gpio":20},			
+			"meta":{"group":"tally","name":"cam 2", "switcher_gpio_pin":2},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":16},			
+			"meta":{"group":"tally","name":"cam 3", "switcher_gpio_pin":3},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":12},			
+			"meta":{"group":"tally","name":"cam 4", "switcher_gpio_pin":4},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":7},			
+			"meta":{"group":"tally","name":"cam 5", "switcher_gpio_pin":5},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":26},			
+			"meta":{"group":"tally","name":"cam 6", "switcher_gpio_pin":6},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":19},			
+			"meta":{"group":"tally","name":"cam 7", "switcher_gpio_pin":7},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":13},			
+			"meta":{"group":"tally","name":"PrP Main", "switcher_gpio_pin":8},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":6},			
+			"meta":{"group":"tally","name":"PrP Keyed", "switcher_gpio_pin":9},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":5},			
+			"meta":{"group":"tally","name":"BkDesk Keyed", "switcher_gpio_pin":10},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+
+
+
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro01", "switcher_gpio_pin":11},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro02", "switcher_gpio_pin":12},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro03", "switcher_gpio_pin":13},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro04", "switcher_gpio_pin":14},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro05", "switcher_gpio_pin":15},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro06", "switcher_gpio_pin":17},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro07", "switcher_gpio_pin":18},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro08", "switcher_gpio_pin":19},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro09", "switcher_gpio_pin":20},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":8},			
+			"meta":{"group":"switcher ctrl","name":"macro10", "switcher_gpio_pin":21},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
 
 	]
 }
