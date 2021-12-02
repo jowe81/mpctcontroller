@@ -91,68 +91,67 @@
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":25},			
 			"meta":{"group":"switcher ctrl","name":"macro02", "switcher_gpio_pin":12},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":24},			
 			"meta":{"group":"switcher ctrl","name":"macro03", "switcher_gpio_pin":13},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":23},			
 			"meta":{"group":"switcher ctrl","name":"macro04", "switcher_gpio_pin":14},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":18},			
 			"meta":{"group":"switcher ctrl","name":"macro05", "switcher_gpio_pin":15},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":11},			
 			"meta":{"group":"switcher ctrl","name":"macro06", "switcher_gpio_pin":17},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":9},			
 			"meta":{"group":"switcher ctrl","name":"macro07", "switcher_gpio_pin":18},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":10},			
 			"meta":{"group":"switcher ctrl","name":"macro08", "switcher_gpio_pin":19},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":22},			
 			"meta":{"group":"switcher ctrl","name":"macro09", "switcher_gpio_pin":20},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
-			"physical":{"type":"switch","gpio":8},			
+			"physical":{"type":"switch","gpio":27},			
 			"meta":{"group":"switcher ctrl","name":"macro10", "switcher_gpio_pin":21},
 			"config":{},
 			"status":{},
 			"data":{}
-		},   
-
+		}   
 	]
 }
