@@ -13,7 +13,7 @@
     {	
 			"physical":{"type":"switch","gpio":21},			
 			"meta":{"group":"tally","name":"cam 1", "switcher_gpio_pin":1},
-			"config":{"debounce":1000},
+			"config":{},
 			"status":{},
 			"data":{}
 		},   
@@ -162,7 +162,7 @@
 		},   
     {	
 			"physical":{"type":"switch","gpio":17},			
-			"meta":{"group":"tally","name":"macro10", "switcher_gpio_pin":22},
+			"meta":{"group":"tally","name":"macro11", "switcher_gpio_pin":22},
 			"config":{},
 			"status":{},
 			"data":{}
