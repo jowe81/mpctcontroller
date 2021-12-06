@@ -22,7 +22,7 @@ function Mpct_switch(device,log,publishDeviceStatus){
 	this.log("Initializing device "+device.physical.uid+" on GPIO "+device.physical.gpio,"hardware");
 	this.device.error=false;
 	//Get interrupt handler, watch both edges
-	this.handler=new Gpio(device.physical.gpio,'in','both');  	
+	this.handler=new Gpio(device.physical.gpio,'in','both',{debounceTimeout: 500});  	
 	//Attach interrupt to watch pulses
 	this.watch(function(err,device){
 		if (err){
