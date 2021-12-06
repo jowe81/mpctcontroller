@@ -12,70 +12,70 @@
 	[
     {	
 			"physical":{"type":"switch","gpio":21},			
-			"meta":{"group":"tally","name":"cam 1", "switcher_gpio_pin":1},
+			"meta":{"group":"_tally","name":"cam 1", "switcher_gpio_pin":1},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":20},			
-			"meta":{"group":"tally","name":"cam 2", "switcher_gpio_pin":2},
+			"meta":{"group":"_tally","name":"cam 2", "switcher_gpio_pin":2},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":16},			
-			"meta":{"group":"tally","name":"cam 3", "switcher_gpio_pin":3},
+			"meta":{"group":"_tally","name":"cam 3", "switcher_gpio_pin":3},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":12},			
-			"meta":{"group":"tally","name":"cam 4", "switcher_gpio_pin":4},
+			"meta":{"group":"_tally","name":"cam 4", "switcher_gpio_pin":4},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":7},			
-			"meta":{"group":"tally","name":"cam 5", "switcher_gpio_pin":5},
+			"meta":{"group":"_tally","name":"cam 5", "switcher_gpio_pin":5},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":26},			
-			"meta":{"group":"tally","name":"cam 6", "switcher_gpio_pin":6},
+			"meta":{"group":"_tally","name":"cam 6", "switcher_gpio_pin":6},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":19},			
-			"meta":{"group":"tally","name":"cam 7", "switcher_gpio_pin":7},
+			"meta":{"group":"_tally","name":"cam 7", "switcher_gpio_pin":7},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":13},			
-			"meta":{"group":"tally","name":"PrP Main", "switcher_gpio_pin":8},
+			"meta":{"group":"_tally","name":"PrP Main", "switcher_gpio_pin":8},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":6},			
-			"meta":{"group":"tally","name":"PrP Keyed", "switcher_gpio_pin":9},
+			"meta":{"group":"_tally","name":"PrP Keyed", "switcher_gpio_pin":9},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":5},			
-			"meta":{"group":"tally","name":"BkDesk Keyed", "switcher_gpio_pin":10},
+			"meta":{"group":"_tally","name":"BkDesk Keyed", "switcher_gpio_pin":10},
 			"config":{},
 			"status":{},
 			"data":{}
@@ -85,84 +85,84 @@
 
     {	
 			"physical":{"type":"switch","gpio":8},			
-			"meta":{"group":"tally","name":"macro01", "switcher_gpio_pin":11},
+			"meta":{"group":"_tally","name":"macro01", "switcher_gpio_pin":11},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":25},			
-			"meta":{"group":"tally","name":"macro02", "switcher_gpio_pin":12},
+			"meta":{"group":"_tally","name":"macro02", "switcher_gpio_pin":12},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":24},			
-			"meta":{"group":"tally","name":"macro03", "switcher_gpio_pin":13},
+			"meta":{"group":"_tally","name":"macro03", "switcher_gpio_pin":13},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":23},			
-			"meta":{"group":"tally","name":"macro04", "switcher_gpio_pin":14},
+			"meta":{"group":"_tally","name":"macro04", "switcher_gpio_pin":14},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":18},			
-			"meta":{"group":"tally","name":"macro05", "switcher_gpio_pin":15},
+			"meta":{"group":"_tally","name":"macro05", "switcher_gpio_pin":15},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":15},			
-			"meta":{"group":"tally","name":"macro05", "switcher_gpio_pin":16},
+			"meta":{"group":"_tally","name":"macro05", "switcher_gpio_pin":16},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":11},			
-			"meta":{"group":"tally","name":"macro06", "switcher_gpio_pin":17},
+			"meta":{"group":"_tally","name":"macro06", "switcher_gpio_pin":17},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":9},			
-			"meta":{"group":"tally","name":"macro07", "switcher_gpio_pin":18},
+			"meta":{"group":"_tally","name":"macro07", "switcher_gpio_pin":18},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":10},			
-			"meta":{"group":"tally","name":"macro08", "switcher_gpio_pin":19},
+			"meta":{"group":"_tally","name":"macro08", "switcher_gpio_pin":19},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":22},			
-			"meta":{"group":"tally","name":"macro09", "switcher_gpio_pin":20},
+			"meta":{"group":"_tally","name":"macro09", "switcher_gpio_pin":20},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":27},			
-			"meta":{"group":"tally","name":"macro10", "switcher_gpio_pin":21},
+			"meta":{"group":"_tally","name":"macro10", "switcher_gpio_pin":21},
 			"config":{},
 			"status":{},
 			"data":{}
 		},   
     {	
 			"physical":{"type":"switch","gpio":17},			
-			"meta":{"group":"tally","name":"macro11", "switcher_gpio_pin":22},
+			"meta":{"group":"_tally","name":"macro11", "switcher_gpio_pin":22},
 			"config":{},
 			"status":{},
 			"data":{}
