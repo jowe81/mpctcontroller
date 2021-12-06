@@ -119,6 +119,13 @@
 			"data":{}
 		},   
     {	
+			"physical":{"type":"switch","gpio":15},			
+			"meta":{"group":"tally","name":"macro05", "switcher_gpio_pin":16},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
 			"physical":{"type":"switch","gpio":11},			
 			"meta":{"group":"tally","name":"macro06", "switcher_gpio_pin":17},
 			"config":{},
@@ -149,6 +156,13 @@
     {	
 			"physical":{"type":"switch","gpio":27},			
 			"meta":{"group":"tally","name":"macro10", "switcher_gpio_pin":21},
+			"config":{},
+			"status":{},
+			"data":{}
+		},   
+    {	
+			"physical":{"type":"switch","gpio":17},			
+			"meta":{"group":"tally","name":"macro10", "switcher_gpio_pin":22},
 			"config":{},
 			"status":{},
 			"data":{}
